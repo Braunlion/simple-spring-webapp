@@ -1,2 +1,2 @@
 # simple-spring-webapp
-Simple Spring Webapp
+This is a web application for training purposes
