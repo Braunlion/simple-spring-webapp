@@ -16,7 +16,7 @@
  */
 package net.eewiki.controller;
 
-import org.slf4j.Logger;
+import org.slf4j.Logger;;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -43,7 +43,7 @@ public class GreetingController {
 		log.info("Calling getDefaultGreetingView()");
 		
 		// our greeting is "Hello World!"
-		m.addAttribute("greeting", "Hi Sarath!");
+		m.addAttribute("greeting", "Welcome to DEVELOPER WORKFLOW!");
 		
 		return "greeting";
 	}
