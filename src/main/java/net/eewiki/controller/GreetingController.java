@@ -43,7 +43,7 @@ public class GreetingController {
 		log.info("Calling getDefaultGreetingView()");
 		
 		// our greeting is "Hello World!"
-		m.addAttribute("greeting", "Welcome to DEVELOPER WORKFLOW!");
+		m.addAttribute("greeting", "Hello World!");
 		
 		return "greeting";
 	}
