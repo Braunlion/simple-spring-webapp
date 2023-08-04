@@ -43,7 +43,7 @@ public class GreetingController {
 		log.info("Calling getDefaultGreetingView()");
 		
 		// our greeting is "Hello World!"
-		m.addAttribute("greeting", "CICD is working after port 80 is open on jenkins vm !");
+		m.addAttribute("greeting", "CICD is working after port 80 is open on jenkins vm and url changed");
 		
 		return "greeting";
 	}
